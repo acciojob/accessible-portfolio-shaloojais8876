@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+nav {
+    background-color: black; /* Background color for the navigation bar */
+    padding: 10px 0; /* Padding for the navigation bar */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin :20px; /* Spacing between list items */
+}
+
+nav ul li a {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 5px 10px; /* Padding for links */
+}
+nav ul li a:hover {
+    background-color: gray; /* Background color on hover */
+}
+img{
+	width :300px;
+}
